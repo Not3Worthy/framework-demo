@@ -1,0 +1,21 @@
+[project]
+name = "fastapi-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Corey", email = "coreypapin16@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.162.0",
+    "pydantic>=2.14.1",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+fastapi-service = "fastapi_service:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
