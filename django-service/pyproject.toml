@@ -1,7 +1,7 @@
 [project]
 name = "django-service"
 version = "0.1.0"
-description = "Add your description here"
+description = "a django dashboard for demoing OAuth secure login"
 readme = "README.md"
 authors = [
     { name = "Corey", email = "coreypapin16@gmail.com" }
