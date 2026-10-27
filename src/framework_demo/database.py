@@ -4,7 +4,7 @@ from sqlalchemy.orm import DeclarativeBase
 
 # Example connection string using asyncpg
 # (You can manage this via environment variables later)
-DATABASE_URL = "postgresql+asyncpg://postgres:postgres@localhost:5432/framework_db"
+DATABASE_URL = "postgresql+asyncpg://postgres:admin1234@localhost:5432/framework_db"
 
 engine = create_async_engine(DATABASE_URL, echo=True, future=True)
 
