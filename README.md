@@ -1,8 +1,8 @@
 ## 🚀 getting started
-This project uses Python 3.14.7 with `uv`, a fast, all-in-one Python package and workspace manager written in Rust. It handles dependencies and can help manage or download Python versions.
+This project uses Python 3.15.2 with **`uv`**, a fast, all-in-one Python package and workspace manager written in Rust. It handles dependencies and can help manage or download Python versions.
 
 ### install `uv`
-Choose your operating system to install the standalone `uv` binary:
+Choose your operating system to install the standalone **`uv`** binary:
 
 * **macOS & Linux:**
     ```bash
