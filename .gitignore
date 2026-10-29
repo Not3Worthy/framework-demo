@@ -6,6 +6,7 @@ dist/
 wheels/
 *.egg-info
 local_token.py
+local_auth.py
 
 # Virtual environments
 .venv
