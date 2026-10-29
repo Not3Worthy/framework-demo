@@ -1,0 +1,188 @@
+{
+  "vehicles": [
+    {
+      "vin": "1FA6P8CF0R109842",
+      "model_name": "Mustang Mach-E GT",
+      "model_year": 2024,
+      "firmware_version": "v6.2.1-prod"
+    },
+    {
+      "vin": "1FTVW1EV4PW30481",
+      "model_name": "F-150 Lightning",
+      "model_year": 2025,
+      "firmware_version": "v7.0.0-beta"
+    },
+    {
+      "vin": "3FA6P0H78LR21495",
+      "model_name": "Escape Plug-In Hybrid",
+      "model_year": 2023,
+      "firmware_version": "v5.4.2-rel"
+    },
+    {
+      "vin": "2FMDK4KC4MBA8812",
+      "model_name": "Explorer EV Concept",
+      "model_year": 2026,
+      "firmware_version": "v8.1.0-alpha"
+    },
+    {
+      "vin": "1FTFW1ED8MF99031",
+      "model_name": "F-150 Lightning Platinum",
+      "model_year": 2024,
+      "firmware_version": "v6.5.0-prod"
+    },
+    {
+      "vin": "3FTEN2F83PR45019",
+      "model_name": "Maverick Hybrid",
+      "model_year": 2025,
+      "firmware_version": "v5.9.1-prod"
+    },
+    {
+      "vin": "1ZVBP8FF5M571204",
+      "model_name": "Mustang Mach-E Rally",
+      "model_year": 2024,
+      "firmware_version": "v6.3.4-prod"
+    },
+    {
+      "vin": "1FTNE3YW1NW11893",
+      "model_name": "E-Transit Cargo Van",
+      "model_year": 2025,
+      "firmware_version": "v7.2.1-fleet"
+    },
+    {
+      "vin": "2MEFM59U9HX60394",
+      "model_name": "Expedition MAX",
+      "model_year": 2023,
+      "firmware_version": "v4.8.2-rel"
+    },
+    {
+      "vin": "3VW1K7AJ4PM78261",
+      "model_name": "Focus Electric Retrofit",
+      "model_year": 2022,
+      "firmware_version": "v3.1.9-legacy"
+    }
+  ],
+  "diagnostic_logs": [
+    {
+      "vin": "1FA6P8CF0R109842",
+      "dtc_code": "P0A80",
+      "severity": "High",
+      "telemetry_snapshot": "{\"battery_pack_temp_c\": 58.4, \"coolant_flow_rate_lpm\": 1.2, \"cell_delta_mv\": 142}"
+    },
+    {
+      "vin": "1FTVW1EV4PW30481",
+      "dtc_code": "U0100",
+      "severity": "Medium",
+      "telemetry_snapshot": "{\"can_bus_latency_ms\": 450, \"ecm_heartbeat\": false, \"packet_loss_pct\": 18.2}"
+    },
+    {
+      "vin": "3FA6P0H78LR21495",
+      "dtc_code": "P0C27",
+      "severity": "High",
+      "telemetry_snapshot": "{\"hybrid_inverter_temp_c\": 92.1, \"bus_voltage_v\": 312.4, \"gate_driver_fault\": true}"
+    },
+    {
+      "vin": "2FMDK4KC4MBA8812",
+      "dtc_code": "B1318",
+      "severity": "Low",
+      "telemetry_snapshot": "{\"low_voltage_battery_v\": 10.8, \"quiescent_current_a\": 2.4, \"soc_pct\": 42.0}"
+    },
+    {
+      "vin": "1FTFW1ED8MF99031",
+      "dtc_code": "P1A15",
+      "severity": "High",
+      "telemetry_snapshot": "{\"charger_plug_temp_c\": 74.5, \"pilot_signal_duty_cycle\": 0.15, \"ac_input_current_a\": 48.0}"
+    },
+    {
+      "vin": "3FTEN2F83PR45019",
+      "dtc_code": "P0562",
+      "severity": "Medium",
+      "telemetry_snapshot": "{\"system_voltage_v\": 11.2, \"generator_field_duty_pct\": 99.8, \"alternator_rpm\": 2400}"
+    },
+    {
+      "vin": "1ZVBP8FF5M571204",
+      "dtc_code": "C0035",
+      "severity": "High",
+      "telemetry_snapshot": "{\"wheel_speed_sensor_hz\": 0.0, \"vehicle_speed_mph\": 45.2, \"abs_active\": true}"
+    },
+    {
+      "vin": "1FTNE3YW1NW11893",
+      "dtc_code": "U0293",
+      "severity": "Medium",
+      "telemetry_snapshot": "{\"telematics_module_ping_ms\": 1200, \"cellular_signal_dbm\": -112, \"gps_lock\": false}"
+    },
+    {
+      "vin": "2MEFM59U9HX60394",
+      "dtc_code": "P0300",
+      "severity": "Medium",
+      "telemetry_snapshot": "{\"misfire_count_cyl_1\": 14, \"misfire_count_cyl_3\": 22, \"engine_rpm\": 1850}"
+    },
+    {
+      "vin": "3VW1K7AJ4PM78261",
+      "dtc_code": "P0AA6",
+      "severity": "High",
+      "telemetry_snapshot": "{\"isolation_resistance_ohm\": 45000, \"threshold_ohm\": 500000, \"ground_fault_detected\": true}"
+    }
+  ],
+  "service_manuals": [
+    {
+      "title": "High-Voltage Battery Pack Degradation & Thermal Management Protocol",
+      "dtc_code": "P0A80",
+      "category": "Powertrain",
+      "content": "DTC P0A80 indicates a severe thermal anomaly or internal cell imbalance within the high-voltage battery module. Procedure: 1. Isolate the high-voltage manual disconnect (MSD). 2. Inspect coolant loop flow rate; values below 3.0 LPM indicate pump cavitation or line blockage. 3. Do not attempt rapid DC charging if internal pack temperature exceeds 55°C to prevent thermal runaway risk."
+    },
+    {
+      "title": "Electronic Control Module (ECM) Communication Lost Diagnostic Procedure",
+      "dtc_code": "U0100",
+      "category": "Networking",
+      "content": "DTC U0100 signifies a CAN bus communication timeout between the Gateway Module and ECM. Procedure: 1. Measure CAN_H and CAN_L termination resistance (should read approximately 60 Ohms). 2. Verify ground continuity on pin 4 and pin 5 of the diagnostic connector. 3. Check for firmware mismatch if logged post-over-the-air (OTA) update."
+    },
+    {
+      "title": "Hybrid Inverter Thermal Overload & Gate Driver Fault Resolution",
+      "dtc_code": "P0C27",
+      "category": "Powertrain",
+      "content": "DTC C0C27 points to excessive semiconductor junction temperatures inside the traction inverter. Procedure: 1. Check auxiliary inverter coolant reservoir level and bleeding valves. 2. Inspect high-voltage DC bus terminals for loose torque or oxidation. 3. Flash updated inverter gate driver calibration parameters using FDRS if thermal telemetry sensors return false positives."
+    },
+    {
+      "title": "Low-Voltage Battery State of Charge & Parasitic Draw Diagnosis",
+      "dtc_code": "B1318",
+      "category": "Electrical",
+      "content": "DTC B1318 reports low battery voltage from the 12V auxiliary battery network. Procedure: 1. Perform a carbon pile load test on the 12V AGM battery. 2. Measure quiescent parasitic drain with all modules in sleep state (must not exceed 50mA after 45 minutes). 3. Inspect DC-DC converter output voltage from the high-voltage pack to ensure proper 12V trickle charging."
+    },
+    {
+      "title": "On-Board Charger (OBC) Thermal Event & AC Inlet Overheating",
+      "dtc_code": "P1A15",
+      "category": "Charging",
+      "content": "DTC P1A15 indicates excessive thermal buildup at the AC charge port receptacle or internal charger pins. Procedure: 1. Inspect vehicle charge inlet pins for arc pitting, debris, or thermal deformation. 2. Verify thermistor resistance values inside the J1772/CCS plug interface. 3. Derate maximum AC charging current via software if pin resistance exceeds manufacturer thresholds."
+    },
+    {
+      "title": "Low System Voltage & Generator Excitation Circuit Check",
+      "dtc_code": "P0562",
+      "category": "Electrical",
+      "content": "DTC P0562 indicates system voltage fell below normal operating thresholds during engine operation. Procedure: 1. Check serpentine belt tension and alternator pulley clutch integrity. 2. Measure generator field control circuit duty cycle on the LIN bus. 3. Replace voltage regulator assembly if charging output remains under 13.2V under load."
+    },
+    {
+      "title": "ABS Wheel Speed Sensor Circuit & Signal Loss Troubleshooting",
+      "dtc_code": "C0035",
+      "category": "Chassis",
+      "content": "DTC C0035 denotes erratic or lost signal from the left front wheel speed sensor. Procedure: 1. Inspect sensor wiring harness for rubbing against steering knuckle or suspension components. 2. Check tone ring or magnetic encoder teeth for metallic debris contamination. 3. Measure AC voltage output across sensor pins while manually spinning the wheel."
+    },
+    {
+      "title": "Lost Communication with Telematics Control Unit (TCU)",
+      "dtc_code": "U0293",
+      "category": "Networking",
+      "content": "DTC U0293 flags a loss of communication over the secondary ethernet/CAN data backbone to the TCU. Procedure: 1. Power cycle the TCU fuse in the body control module. 2. Check rooftop shark-fin antenna coaxial cable connections for water ingress or corrosion. 3. Re-provision cellular credentials via Ford diagnostic software if OTA configuration packets failed."
+    },
+    {
+      "title": "Engine Misfire Detection & Ignition Coil Primary/Secondary Circuit Test",
+      "dtc_code": "P0300",
+      "category": "Powertrain",
+      "content": "DTC P0300 indicates random or multiple cylinder misfires. Procedure: 1. Inspect spark plug gap, electrode wear, and oil fouling in spark plug wells. 2. Swap ignition coils between misfiring and healthy cylinders to isolate failing coils. 3. Perform a relative compression test using diagnostic software to rule out mechanical valve or piston ring failure."
+    },
+    {
+      "title": "High-Voltage Isolation Fault & Chassis Ground Leakage Test",
+      "dtc_code": "P0AA6",
+      "category": "Safety",
+      "content": "DTC P0AA6 is a critical safety code signaling insulation breakdown between the high-voltage circuit and vehicle chassis ground. Procedure: 1. De-energize high-voltage system and wear appropriate Class 0/00 high-voltage insulating gloves. 2. Use a high-potential (hipot) megohmmeter to test isolation resistance across positive and negative bus bars. 3. Isolate individual sub-components (compressor, heater, inverter, battery) to pinpoint the exact leakage path."
+    }
+  ]
+}
