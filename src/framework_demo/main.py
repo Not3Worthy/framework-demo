@@ -5,8 +5,12 @@ from pydantic import BaseModel, ConfigDict, EmailStr
 
 from framework_demo.database import get_db
 from framework_demo.model.user import User
+from framework_demo.model.diagnostic_services import Vehicle, ServiceManual, DiagnosticLog
+
+from framework_demo.routers.rag import router as rag_router
 
 app = FastAPI(title="Framework Demo API", version="1.0.0")
+app.include_router(rag_router)
 
 # Pydantic Schemas for Request/Response
 class UserCreate(BaseModel):

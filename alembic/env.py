@@ -5,6 +5,7 @@ from sqlalchemy.ext.asyncio import create_async_engine
 #import shared Base, and assign its metadata to target_metadata
 from framework_demo.database import DATABASE_URL, Base
 from framework_demo.model.user import User
+from framework_demo.model.diagnostic_services import Vehicle, ServiceManual, DiagnosticLog
 
 
 # this is the Alembic Config object, which provides
