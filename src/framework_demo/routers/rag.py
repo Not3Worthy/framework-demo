@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from sentence_transformers import SentenceTransformer
-from pgvector.sqlalchemy import CosineDistance
+#from pgvector.sqlalchemy import CosineDistance
 from framework_demo.database import get_db
 from framework_demo.model.diagnostic_services import *
 
