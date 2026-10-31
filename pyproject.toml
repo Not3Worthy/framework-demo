@@ -34,7 +34,6 @@ build-backend = "uv_build"
 [tool.uv.workspace]
 members = [
     "fastapi-service",
-    "django-service",
 ]
 
 [dependency-groups]

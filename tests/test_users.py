@@ -7,8 +7,6 @@ from sqlalchemy.pool import NullPool
 from framework_demo.main import app
 from framework_demo.database import Base, get_db
 
-# Use an in-memory SQLite or separate test database URL for testing
-# For PostgreSQL async testing, you can also point to a test database:
 TEST_DATABASE_URL = "postgresql+asyncpg://postgres:admin1234@localhost:5432/framework_db"
 
 test_engine = create_async_engine(TEST_DATABASE_URL, poolclass=NullPool)

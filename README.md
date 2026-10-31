@@ -34,19 +34,3 @@ Reads uv.lock and ensures your local environment matches the dependency tree fou
     uv run --package fastapi-service uvicorn fastapi_service.main:app --reload
 
 Starts the fastapi-service for testing on port 8000
-
-### first time setup of django admin features
-
-    uv run --package django-service python django-service/manage.py migrate
-
-Run migrations to create the local sqlite instance which stores admin user info
-
-    uv run --package django-service python django-service/manage.py createsuperuser
-
-Follow the prompts to create first-time admin user and password
-
-### start the django-service
-
-    uv run --package django-service python django-service/manage.py runserver 8001
-
-Starts the django-service for testing on port 8001
