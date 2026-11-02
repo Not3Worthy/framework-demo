@@ -2,7 +2,7 @@
 - configuring software to use PATH variable
 - basic usage of terminal or command prompt
 - installation of software suites
-
+<br><br>
 ## 📝 A list of required tools / components for this project:
 - Install Node.js: [download](https://nodejs.org/en/download)
 - Verify the install in bash/cmd with the following commands:<br>
@@ -14,7 +14,10 @@
 - Download and install PostgreSQL: [download](https://www.postgresql.org/download/)
 - Verify PostgreSQL install by running:<br>
   `pg_isready` result should be :P0RT# - accepting connections
-
+<br><br>
+## 🛠️ Installing PGVector for PostgreSQL
+Download the latest pgvector from its github here: [pgvector](https://github.com/pgvector/pgvector)
+<br><br>
 ## 🚀 Python / Fastapi setup
 
 This project uses Python 3.15.2 with **`uv`**, a fast, all-in-one Python package and workspace manager written in Rust. It handles dependencies and can help manage or download Python versions.
