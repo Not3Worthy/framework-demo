@@ -1,5 +1,9 @@
 ## 📝 A list of required tools / components for this project:
-- The latest [Node.js version](https://nodejs.org/en/download)
+- Install the latest version of Node.js: [download](https://nodejs.org/en/download)
+- Verify the install in bash/cmd with the following commands:<br>
+  `node --version` , `npm --version`
+- With node and npm verified, install Angular CLI with the following command:<br>
+  `npm install -g @angular/cli`
 
 ## 🚀 Python / Fastapi setup
 
