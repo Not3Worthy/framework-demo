@@ -1,7 +1,11 @@
+since it is incredibly easy to take a turn and end up down an endless rabbit hole in numerous places here;
+
 ## ⚠️ This Project assumes some intermediate knowledge
-- configuring software to use PATH variable
-- basic usage of terminal or command prompt
-- installation of software suites
+- configuring software to use PATH variable (why wont xyz-cli-tool work?) 
+- basic usage of terminal or command prompt (cd, dir, ls, mkdir, touch, help, etc...)
+- installation of software suites from bash / cmd (if I install this here, can I use it there?)
+- intermediate skill-level with coding practice and principles (what do you mean 'this'? why is the word 'self' everywhere?)
+- understanding of how libs / apis integrate and communicate with each other (hmmm is the port # here the same in that file?)
 <br><br>
 ## 📝 A list of required tools / components for this project:
 - Install Node.js: [download](https://nodejs.org/en/download)
