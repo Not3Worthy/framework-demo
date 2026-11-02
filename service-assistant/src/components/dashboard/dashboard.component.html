@@ -1,0 +1,19 @@
+<main class="main">
+  <div class="content">
+    <div class="left-side">
+      <h1>Hello, I am your Service Assistant</h1>
+      <p>this agent can search and return results based on vin#, error code, or vehicle model.</p>
+      <div class="query-box">
+        <input 
+          type="text" 
+          [(ngModel)]="searchQuery" 
+          (keyup.enter)="onSearch()"
+          placeholder="Enter VIN, error code, or query..." 
+          class="search-input"
+        />
+        <button (click)="onSearch()" class="search-button">Search</button>
+      </div>
+      
+    </div>
+  </div>
+</main>

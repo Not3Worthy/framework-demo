@@ -1,0 +1,22 @@
+<div class="login-wrapper">
+  <div class="login-card">
+    <h2>Service Assistant</h2>
+    <p class="subtitle">Secure Diagnostics & RAG Portal</p>
+
+    <div class="login-actions">
+      <!-- Modern built-in Angular control flow -->
+      @if (!isLoggedIn) {
+        <button (click)="login()" class="ms-login-btn">
+          <span class="ms-icon">🪟</span> Sign in with Microsoft
+        </button>
+      }
+
+      @if (isLoggedIn) {
+        <div class="user-profile">
+          <p>Welcome back, <strong>{{ username }}</strong></p>
+          <button (click)="logout()" class="ms-logout-btn">Sign Out</button>
+        </div>
+      }
+    </div>
+  </div>
+</div>
