@@ -16,7 +16,7 @@
   `pg_isready` result should be :P0RT# - accepting connections
 <br><br>
 ## 🛠️ Installing PGVector for PostgreSQL
-Download the latest pgvector from its github here: [pgvector](https://github.com/pgvector/pgvector)
+Download the latest pgvector from github here: [pgvector](https://github.com/pgvector/pgvector)
 <br><br>
 ## 🚀 Python / Fastapi setup
 
