@@ -1,3 +1,6 @@
+## 📝 A list of required tools / components for this project:
+- The latest [Node.js version](https://nodejs.org/en/download)
+
 ## 🚀 Python / Fastapi setup
 
 This project uses Python 3.15.2 with **`uv`**, a fast, all-in-one Python package and workspace manager written in Rust. It handles dependencies and can help manage or download Python versions.
