@@ -15,8 +15,12 @@
 - Verify PostgreSQL install by running:<br>
   `pg_isready` result should be :P0RT# - accepting connections
 <br><br>
-## 🛠️ Installing PGVector for PostgreSQL
-Download the latest pgvector from github here: [pgvector](https://github.com/pgvector/pgvector)
+## 🛠️ Installing pgvector for PostgreSQL (required)
+Download the latest pgvector from github here: [pgvector](https://github.com/pgvector/pgvector)<br>
+<br>
+⚠️ **`pgvector`** is released as a set of files that needs to be built for its parent OS.  <br>It can then be used by the running postgreSQL instance to persist vector embeddings. <br><br>
+The github maintained by the authors of pgvector has detailed instructions for building to either OS.<br>
+
 <br><br>
 ## 🚀 Python / Fastapi setup
 
@@ -48,7 +52,7 @@ Installs the latest stable Python toolchain
 
     uv sync
 
-Reads uv.lock and ensures your local environment matches the dependency tree found there or it downloads the deps needed for each service to run properly
+Reads uv.lock and ensures your local environment matches the dependency tree found there or it downloads the dependencies needed for each service to run properly
 
 ### start the fastapi-service
 
