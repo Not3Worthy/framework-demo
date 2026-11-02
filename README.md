@@ -19,8 +19,7 @@
 Download the latest pgvector from github here: [pgvector](https://github.com/pgvector/pgvector)<br>
 <br>
 ⚠️ **`pgvector`** is released as a set of files that needs to be built for its parent OS.  <br>It can then be used by the running postgreSQL instance to persist vector embeddings. <br><br>
-The github maintained by the authors of pgvector has detailed instructions for building to either OS.<br>
-
+The github maintained by the authors of pgvector has detailed instructions for building to either OS.
 <br><br>
 ## 🚀 Python / Fastapi setup
 
