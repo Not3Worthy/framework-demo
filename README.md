@@ -1,9 +1,19 @@
+## ⚠️ This Project assumes some intermediate knowledge
+- configuring software to use PATH variable
+- basic usage of terminal or command prompt
+- installation of software suites
+
 ## 📝 A list of required tools / components for this project:
-- Install the latest version of Node.js: [download](https://nodejs.org/en/download)
+- Install Node.js: [download](https://nodejs.org/en/download)
 - Verify the install in bash/cmd with the following commands:<br>
   `node --version` , `npm --version`
 - With node and npm verified, install Angular CLI with the following command:<br>
   `npm install -g @angular/cli`
+- Verify Angular CLI with:<br>
+  `ng --version`
+- Download and install PostgreSQL: [download](https://www.postgresql.org/download/)
+- Verify PostgreSQL install by running:<br>
+  `pg_isready` result should be :P0RT# - accepting connections
 
 ## 🚀 Python / Fastapi setup
 
