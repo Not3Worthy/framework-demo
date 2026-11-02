@@ -35,7 +35,7 @@ Choose your operating system to install the standalone **`uv`** binary:
 
 ## environment setup
 
-### if needed, install python
+### install python
 
     uv python install
 
