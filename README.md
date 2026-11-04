@@ -1,7 +1,5 @@
 This Demo is intended to demonstrate the authors understanding, and usage of scalable software frameworks and their dependencies in order to build relevant solutions in the real world.
 
-Since it is incredibly easy to take a turn and end up down an endless rabbit hole in numerous places here;
-
 ## ⚠️ This Project assumes some intermediate knowledge
 - configuring software to use PATH variable (why wont xyz-cli-tool work?) 
 - basic usage of terminal or command prompt (cd, dir, ls, mkdir, touch, help, etc...)
