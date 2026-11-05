@@ -36,9 +36,9 @@ Choose your operating system to install the standalone **`uv`** binary:
     ```bash
     curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
 
-* **powershell:**
+* **command prompt:**
     ```bash
-    -ExecutionPolicy ByPass -c "irm [https://astral.sh/uv/install.ps1](https://astral.sh/uv/install.ps1) | iex"
+    powershell -ExecutionPolicy ByPass -c "irm [https://astral.sh/uv/install.ps1](https://astral.sh/uv/install.ps1) | iex"
 
 ### clone the repository
 `git clone https://github.com/Not3Worthy/framework-demo.git`
